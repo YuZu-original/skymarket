@@ -16,9 +16,12 @@ Install using git:
 or [download](https://github.com/YuZu-original/skymarket/archive/refs/heads/master.zip) the zip archive.
 
 ### Setup
+1. #### Go to the folder.
+   
+   Open `skymarket` folder in the terminal.
 
-1. #### Create and activate venv:
-    
+2. #### Create and activate venv.
+
     **Windows**:
     
     ```sh
@@ -32,7 +35,7 @@ or [download](https://github.com/YuZu-original/skymarket/archive/refs/heads/mast
     python3 -m venv venv
     source venv/bin/activate
     ```
-2. #### Install requirements
+3. #### Install requirements
    
    ```sh
    pip install -r requirements.txt
