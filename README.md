@@ -16,11 +16,11 @@ Install using git:
 or [download](https://github.com/YuZu-original/skymarket/archive/refs/heads/master.zip) the zip archive.
 
 ### Setup
-1. #### Go to the folder.
+1. **Go to the folder.**
    
    Open `skymarket` folder in the terminal.
 
-2. #### Create and activate venv.
+2. **Create and activate venv.**
 
     **Windows**:
     
@@ -35,7 +35,7 @@ or [download](https://github.com/YuZu-original/skymarket/archive/refs/heads/mast
     python3 -m venv venv
     source venv/bin/activate
     ```
-3. #### Install requirements
+3. **Install requirements**
    
    ```sh
    pip install -r requirements.txt
@@ -43,13 +43,13 @@ or [download](https://github.com/YuZu-original/skymarket/archive/refs/heads/mast
 
 ### Usage
 
-1. #### Run frontend
+1. **Run frontend**
    
    Go to the folder `market_postgres` and use:
    
    `docker-compose up --build -d` (Docker need)
 
-2. #### Run backend
+2. **Run backend**
 
    Run backend server.
 
@@ -57,6 +57,6 @@ or [download](https://github.com/YuZu-original/skymarket/archive/refs/heads/mast
 
    Windows: `python manage.py runserver`
 
-3. #### Let's go!
+3. **Let's go!**
    
    Open [http://localhost:3000/](http://localhost:3000/) and start creating ads! 🎉🎉🎉
